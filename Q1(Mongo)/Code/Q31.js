@@ -1,0 +1,1 @@
+db.getCollection('tweets').find({"mediaContentType": "image/jpeg", "parentId":{$ne:null}}, {senderName: 1})
